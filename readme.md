@@ -19,9 +19,10 @@
 	1. 设置Template folder location: `Templates/scripts`
 	2. 设置Startup Templaters: "src-startup.md"文件, 路径为`Templates/scripts/src-startup.md`
 	3. 设置User Script Functions: `Templates/scripts`
+	4. 设置Template hotkeys, 给脚本逐个添加快捷键, 不是必须的, 但是建议添加快捷键便于使用
 
 使用:  
-使用方法1: 推荐, 插件设置的『Template hotkeys』, 给脚本逐个添加快捷键  
+使用方法1: 使用快捷键
 使用方法2: 打开命令面板 -> Templater: open instert tempalte modal(Alt+E) -> 选择具体脚本
 
 # 脚本文件说明
@@ -32,8 +33,8 @@
 
 ## src-changeheadinglevel-down/up.md
 - 批量调整选中内容的标题(heading)的级别  
-- src-changeheadinglevel-down.md, 提高级别,减少`#`号  
-- src-changeheadinglevel-up.md, 降低级别,增加`#`号
+- src-changeheadinglevel-up.md, 提高级别,减少`#`号  
+- src-changeheadinglevel-down.md, 降低级别,增加`#`号
 
 ## src-toggleUL.md
 批量切换选中行的列表/非列表的状态
